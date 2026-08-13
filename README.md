@@ -8,6 +8,10 @@ One nrf24L01 Module OR nrf24L01+PA/LNA Module
 7 Female to Female Jumper Wires
 Note
 nrf24L01 and nrf24L01+PA/LNA modules have same pinout.
+
+
+
+
 Pinout Table
 NODEMCU ESP32S	nrf24L01
 3.3V	VCC
@@ -17,8 +21,10 @@ GPIO15	CSN
 GPIO14	SCK
 GPIO13	MOSI
 GPIO12	MISO
-Images
 NodeMCU ESP-32S nrf24L01
+
+
+
 
 Setup
 Download Arduino IDE from here according to your Operating System.
@@ -37,7 +43,9 @@ Simply install it.
 Wait for sometime and after that it is installed.
 Restart the Arduino IDE by closing and open again.
 Done!
-🔧Install
+
+
+Install
 Download or Clone the Repository.
 Open the folder and just double click on nrfBlueNullifier.ino file.
 It opens in Arduino IDE.
@@ -50,7 +58,11 @@ When show Connecting..... press and hold BOOT button.
 When show Writing at  then release the BOOT button.
 Done!
 The script starts running automatically.
-🔧Install using ESP Web Flasher
+
+
+
+
+Install using ESP Web Flasher
 Open Adafruit ESP Web Flasher from here.
 Set the Baud Rate to 115200 Baud.
 Connect ESP32 with a USB cable and then to the PC/Laptop.
@@ -74,10 +86,17 @@ Wait for sometimes to successfully programmed.
 Press and release the BOOT button.
 Unplug and plug the ESP32 on the PC/Laptop.
 Done! nrfBlueNullifier-HSPI-nrf24L01 is ready.
+
+
+
 What happened after script is running?
 It breaks the sound.
 It blocks the sound even the device playing the music.
 Sometimes it disconnects the bluetoth from the device.
+
+
+
+
 Modification In Code
 The code effects on classic bluetooth and wifi.
 If want to put most of the effect on classic bluetooth only, modify the code by replacing the code in line 14 by following :
